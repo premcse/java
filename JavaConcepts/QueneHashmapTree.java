@@ -2,6 +2,7 @@ package JavaConcepts;
 
 import java.util.Deque;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Map;
@@ -37,7 +38,7 @@ public class QueneHashmapTree {
 		ac.put("c", 5);
 		System.out.println(ac.values());
 		System.out.println(ac.keySet());
-		//ac.remove("c");
+		ac.remove("c");
 		System.out.println(ac);
 		
 		Set<Integer> bc = new TreeSet<>();
@@ -48,6 +49,15 @@ public class QueneHashmapTree {
 		bc.add(8);
 		//bc.remove(6);
 		System.out.println(bc);
+		
+		Set<Integer> bc2 = new HashSet<>();
+		bc2.add(2);
+		bc2.add(6);
+		bc2.add(4);
+		bc2.add(8);
+		bc2.add(8);
+		//bc.remove(6);
+		System.out.println(bc2);
 		
 		Map<String,Integer> bcd = new TreeMap<>();
 		bcd.put("a",2);

@@ -34,7 +34,7 @@ public class Predicatejava {
 		
 		//isEqual()
 		Predicate<String> str = Predicate.isEqual("111aaa");
-		System.out.println(str.test("111aa"));
+		System.out.println(str.test("111aaa"));
 		
 	}
 
